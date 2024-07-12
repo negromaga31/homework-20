@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML lesson 20</title>
+   <link rel="shortcut icon" href="html-logo.svg" type="image/x-icon">
+   <style ">
+      div {
+         background-color: rgb(190, 151, 22) ;
+         width: 1750px;
+         height: 60px;
+      }
+      .head{
+         color: #000;
+      font-size: 25px;
+
+      }
+      main{
+         padding: 20px;
+         font-size: 40px;
+      }
+      section{
+         font-size: 40px;
+      }
+      .photo{
+         padding: 20px;
+      }
+      .ul1{
+         margin-left: 10px;  
+      }
+      article{
+         background-color: bisque;
+         margin-left: 0px;
+         width: 1750px;
+         height: 60px;
+      }
+      .state{
+      padding-top: 20px;
+      background-color: bisque;
+      margin-left: -40px;
+      width: 1750px;
+      height: 20px;
+      }
+      q{
+      background-color: bisque;
+      margin-left: 0px;
+      width: 1750px;
+      height: 60px;
+      }
+
+footer{
+   background-color: blueviolet;
+   color: aliceblue;
+   height: 300px;
+}
+a{
+color: #ffffff;
+}
+
+      
+   </style>
+   
+
+</head>
+
+<body>
+   <header>
+      <div class=" background header">
+      <nav><a href="" class=" head">Первая секция</a> <a href="" class=" head">Вторая секция</a></nav>
+   </div>
+      </header>
+      <main>
+      <section> <strong>Заголовок</strong></section>
+      <section> <strong>Та самая первая секция</strong></section>
+      <section class="photo"><img src="data:image/jpeg;base64,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" alt=""></section>
+      <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Свой власти большого семь,
+      несколько что бросил меня там она решила,
+      моей на берегу сбить родного грустный своего,
+      своих оксмокс мир речью страну коварных составитель приставка пояс жаренные это? Ее продолжил скатился большого приставка осталось правилами встретил ему грустный заголовок эта текстов деревни запятой текста своих букв они несколько рыбного но образ,
+      однажды лучше семантика инициал решила щеке? Деревни диких гор домах вопрос первую подпоясал текстов вопроса,
+      оксмокс встретил переписывается пунктуация продолжил над грамматики всеми залетают ведущими. Приставка,
+      о. Ipsum гор ты бросил большой рекламных однажды вскоре свой пустился продолжил,
+      приставка они все переписывается жаренные даль,
+      безорфографичный строчка большого силуэт страну своих. Напоивший курсивных гор использовало. Встретил взобравшись снова переписали переулка,
+      проектах коварный всеми взгляд курсивных точках одна грамматики свой,
+      раз,
+      выйти предупреждал безорфографичный первую речью собрал ! Последний ее составитель безорфографичный страну грустный запятой семь щеке пояс даже вопрос дорогу себя бросил свой маленький текста букв,
+      текст рот на берегу гор своих переписывается? Маленький там вопроса то пунктуация переулка вскоре,
+      коварных одна это,
+      домах безопасную,
+      знаках своего вершину диких повстречался. Реторический о вскоре использовало переписывается его заманивший живет мир до всемогущая моей? Переписывается своего выйти,
+      дороге раз даже буквоград дорогу. Ipsum единственное сбить однажды то текст. Заманивший города которой подзаголовок свой подпоясал толку. Курсивных всемогущая путь,
+      возвращайся это ты текстами вскоре толку пор алфавит,
+      языком послушавшись. Которой дороге ipsum большого прямо до послушавшись грустный он языком это вскоре снова предупредила первую однажды что пустился за большой коварный безопасную,
+      возвращайся несколько от всех? Всемогущая.</p>
+      <ul class="ul1">
+         <li>Элемент списка</li>
+         <li>Элемент списка</li>
+         <li>Элемент списка</li>
+         <li>Элемент списка</li>
+         <li>Элемент списка</li>
+         <li>Элемент списка</li>
+      </ul class="ul1" >
+      <section> <strong>Та самая вторая секция</strong></section>
+      <p>Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Свой своего переписали снова речью семантика журчит свою большой агентство переписывается за возвращайся рыбного на берегу предложения пояс, текста обеспечивает меня скатился! Скатился, образ. Запятой точках рот своих живет моей вершину гор единственное алфавит великий о приставка знаках текста строчка дал даже послушавшись прямо буквенных заглавных до последний города, злых это! Журчит свой над рукопись вершину букв которой возвращайся имеет которое они ipsum пояс заглавных жизни свою строчка вопроса гор то, до своих путь. Ты гор рыбными напоивший щеке диких решила пунктуация безопасную. Последний города пор которой запятой лучше коварных, даль запятых злых повстречался прямо дорогу курсивных безорфографичный они необходимыми собрал меня подпоясал свое рукописи над живет всемогущая одна она на берегу. Меня дорогу всемогущая вершину напоивший вскоре своих домах образ, единственное знаках рукопись! Маленький текстами инициал власти ipsum, ты вскоре! Своих, эта необходимыми которое оксмокс, что заманивший скатился своего даже использовало власти свой, щеке толку составитель буквенных буквоград свое одна от всех дорогу страна дал ручеек имеет! Заманивший ведущими журчит образ, запятой снова вершину которой лучше наш текст коварный? Единственное грустный города своих безорфографичный переписывается, которой подпоясал свою ipsum раз свое правилами это там жаренные буквоград, языкового меня грамматики все вскоре. Переулка, дорогу наш. Свой продолжил сих жаренные, послушавшись заманивший своих одна речью взобравшись, осталось текст рыбного, если коварных вершину! Его предупредила букв ведущими, все семь страну использовало грамматики домах ему возвращайся силуэт журчит, родного проектах обеспечивает назад имени. Жизни, вершину прямо!</p>
+
+      <article> 
+               <blockquote>Иду однажды ночью по улице сзади девушки. Она резко прибавляет темп. Я тоже пошёл быстрее. Она начала бежать. Я тоже побежал. Она закричала и я тоже закричал.
+   Я даже не видел от чего мы бежали, но было п*здец страшно. Если вы девственник и вас это смущает, то не стоит переживать. Рано или поздно жизнь вас обязательно вы*бет. Раньше мне говорили, что если отдать почку больному человеку, то ты заслужишь огромное уважение. Я не сразу понял почему началась истерика, когда в больницу я принёс сразу 5 почек.
+   <div class="state"> 
+<q>  Джейсон стетхэм </q>  </div>
+
+</blockquote> 
+</article>
+</main>
+
+<footer>
+<article>Ссылки</article>
+<article> 
+<ul>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+   <li> <a href="">Ссылка</a></li>
+
+</ul></article> 
+</footer>
+
+
+   </body>
+   </html>
